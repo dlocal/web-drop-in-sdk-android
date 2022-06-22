@@ -2,7 +2,7 @@
 
 The Web Drop-In Android SDK is a native wrapper to use the Smartfields Web solution to enable 
 credit card tokenization for merchants that require the lowest level of PCI compliance. 
-Lightweight library with only `134KB` AAR file size.
+Lightweight library with only `35KB` AAR file size.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Lightweight library with only `134KB` AAR file size.
 
 ## Requirements
 
-- Supports API versions from 21 and higher.
+- Supports API versions from 23 and higher.
 
 ## App permissions
 

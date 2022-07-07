@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val inputOptions = DLTokenizeInput(
             apiKey = "API KEY",
             country = "UY",
-            locale = "ES",
+            locale = "es",
             testMode = true
         )
 

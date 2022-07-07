@@ -33,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation "com.dlocal.android:web-drop-in:0.0.1"
+    implementation "com.dlocal.android:web-drop-in:0.0.2"
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'

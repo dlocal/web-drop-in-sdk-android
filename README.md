@@ -18,7 +18,7 @@ Lightweight library with only `35KB` AAR file size.
 
 ## Requirements
 
-- Supports API versions from 23 and higher.
+- Supports API versions from 23 (Android 6.0 Marshmallow) and higher.
 
 ## App permissions
 
@@ -28,7 +28,7 @@ android.permission.INTERNET (Required)
 
 ## Installation
 
-New releases of the Web Drop-In Android SDK are published via [Maven Repository](https://mvnrepository.com/artifact/com.dlocal.android/data-collector).
+New releases of the Web Drop-In Android SDK are published via [Maven Repository](https://mvnrepository.com/artifact/com.dlocal.android/web-drop-in).
 The latest version is available via `mavenCentral()`.
 
 Add `mavenCentral()` to the project level [build.gradle](https://bitbucket.org/dlocal-public/web-drop-in-sdk-android/src/master/build.gradle#lines-5) file's repositories section, if you don't have it already:
@@ -41,12 +41,12 @@ repositories {
 
 ```
 
-Add Web Drop-In SDK dependency to the application's [build.gradle](https://bitbucket.org/dlocal-public/web-drop-in-sdk-android/src/master/app/build.gradle#lines-38) file:
+Add Web Drop-In SDK dependency to the application's [build.gradle](https://bitbucket.org/dlocal-public/web-drop-in-sdk-android/src/master/app/build.gradle#lines-36) file:
 ```groovy
 
 dependencies {
     ...
-    implementation 'com.dlocal.android:web-drop-in:0.0.1'
+    implementation 'com.dlocal.android:web-drop-in:0.0.2'
     ...
 }
 
@@ -179,7 +179,7 @@ val inputOptions = DLTokenizeInput(apiKey = "API KEY", country = "US", locale = 
 
 ## Sample App
 
-In this repository there's a [sample app](https://bitbucket.org/dlocal-public/web-drop-in-sdk-android/src/master/app/) to showcase how to use the SDK, please refer to the code for more detailed examples.
+In this repository there's a [sample app](https://bitbucket.org/dlocal-public/web-drop-in-sdk-android/src/master/app/src/main/java/com/dlocal/sampleapp/MainActivity.kt) to showcase how to use the SDK, please refer to the code for more detailed examples.
 
 ## Report Issues
 
